@@ -1,0 +1,54 @@
+<div class="container p-3">
+    <div class="col-md-12">
+        <mat-card>
+        <mat-card-header>
+            <mat-card-title *ngIf="router.snapshot.params['id']"> Edit Form</mat-card-title>
+            <mat-card-title *ngIf="!router.snapshot.params['id']"> Add Form</mat-card-title>
+        </mat-card-header>
+        <form class="example-form" [formGroup]="userData"
+            (ngSubmit)="!router.snapshot.params['id']? addEmployee(): updateEmployee()">
+            <mat-card-content>
+                <!-- <mat-form-field class="mat-field">
+                    <input matInput placeholder="ID" formControlName="coopId">
+                </mat-form-field> -->
+                <mat-form-field class="mat-field">
+                    <input matInput placeholder="Given Name" formControlName="givenName">
+                </mat-form-field>
+              
+                <mat-form-field class="mat-field">
+                    <input matInput placeholder="Father Name" formControlName="fatherName">
+                </mat-form-field>
+
+                <mat-form-field class="mat-field">
+                    <input matInput placeholder="Grand Father Name" formControlName="grandFatherName">
+                </mat-form-field>
+            
+                <mat-form-field class="mat-field">
+                    <input matInput type="number" placeholder="Phone Number" formControlName="phoneNumber">
+                </mat-form-field>
+                
+                <mat-form-field class="mat-field">
+                    <input matInput type="email" placeholder="Email" formControlName="email">
+                </mat-form-field>
+
+                <mat-form-field class="mat-field">
+                    <input type="text" matInput placeholder="Position" formControlName="position">
+                </mat-form-field>
+                
+                <mat-form-field class="mat-field">
+                    <mat-select matNativeControl  formControlName="division" placeholder="Select Division">
+                        <mat-option value=""></mat-option>
+                        <mat-option *ngFor="let division of divisions" [value]="division">{{division.name}}</mat-option>
+                    </mat-select>
+                </mat-form-field>
+               
+            </mat-card-content>
+            <div class="save-button">
+                <button mat-stroked-button class="btn btn-success" type="submit">Save</button>
+            </div>
+            
+        </form>
+    </mat-card>
+    </div>
+    
+</div>

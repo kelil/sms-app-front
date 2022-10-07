@@ -1,0 +1,3277 @@
+Warning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disable-host-check" if that's the
+case.
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |  10.65 MB |
+styles.css, styles.js | styles        | 706.57 kB |
+polyfills.js          | polyfills     | 315.30 kB |
+main.js               | main          | 161.77 kB |
+scripts.js            | scripts       |  20.32 kB |
+runtime.js            | runtime       |   8.35 kB |
+
+| Initial Total |  11.83 MB
+
+Build at: 2022-09-07T07:36:47.320Z - Hash: 83da20cfc07e61ca - Time: 8363ms
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'jszip'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'lodash.mergewith'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/ng-apexcharts/fesm2020/ng-apexcharts.mjs depends on 'apexcharts'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on https://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  8.35 kB |
+
+5 unchanged chunks
+
+Build at: 2022-09-07T07:36:48.298Z - Hash: b757dee4ad988bfe - Time: 868ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 161.77 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-07T07:41:14.973Z - Hash: d75a158e8916c013 - Time: 1783ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 161.69 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-07T07:43:47.177Z - Hash: 5df588cebdbd5274 - Time: 887ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 161.74 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-07T07:43:48.002Z - Hash: 2a9ddcfda7b49e93 - Time: 788ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+6 unchanged chunks
+
+Build at: 2022-09-07T07:44:41.435Z - Hash: 2a9ddcfda7b49e93 - Time: 801ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 161.74 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-07T07:45:18.817Z - Hash: 8c8b44ac8255a7fe - Time: 878ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 162.30 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-07T07:54:18.947Z - Hash: ee7b6ee0f2abe96f - Time: 1527ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 162.31 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-07T07:56:47.635Z - Hash: 34e927f825ef6f23 - Time: 1106ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 162.34 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-07T07:58:21.310Z - Hash: 3d884b8fc6e40675 - Time: 943ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 162.34 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-07T07:59:00.038Z - Hash: 20d3f5f4f16352a2 - Time: 794ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 162.34 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-07T07:59:27.660Z - Hash: b33b121d093f9af6 - Time: 931ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 162.34 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-07T07:59:48.302Z - Hash: a320f02d246a0fda - Time: 872ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 162.36 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-07T08:00:36.402Z - Hash: c40d33a39abf70be - Time: 914ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 162.36 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-07T08:00:55.107Z - Hash: fcad49f42d993773 - Time: 743ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 162.34 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-07T08:01:12.580Z - Hash: a320f02d246a0fda - Time: 674ms
+
+✔ Compiled successfully.
+Warning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disable-host-check" if that's the
+case.
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |  10.65 MB |
+styles.css, styles.js | styles        | 706.57 kB |
+polyfills.js          | polyfills     | 315.30 kB |
+main.js               | main          | 162.34 kB |
+scripts.js            | scripts       |  20.32 kB |
+runtime.js            | runtime       |   8.35 kB |
+
+| Initial Total |  11.83 MB
+
+Build at: 2022-09-07T10:43:51.278Z - Hash: 7a329d04392fc357 - Time: 8845ms
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'jszip'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'lodash.mergewith'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/ng-apexcharts/fesm2020/ng-apexcharts.mjs depends on 'apexcharts'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on https://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  8.35 kB |
+
+5 unchanged chunks
+
+Build at: 2022-09-07T10:43:52.266Z - Hash: a320f02d246a0fda - Time: 860ms
+
+✔ Compiled successfully.
+? Port 4200 is already in use.
+Would you like to use a different port? (Y/n) [46D[46CWarning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disable-host-check" if that's the
+case.
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |  10.65 MB |
+styles.css, styles.js | styles        | 706.57 kB |
+polyfills.js          | polyfills     | 315.30 kB |
+main.js               | main          | 162.34 kB |
+scripts.js            | scripts       |  20.32 kB |
+runtime.js            | runtime       |   8.35 kB |
+
+| Initial Total |  11.83 MB
+
+Build at: 2022-09-07T10:55:02.209Z - Hash: 7a329d04392fc357 - Time: 8508ms
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'jszip'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'lodash.mergewith'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/ng-apexcharts/fesm2020/ng-apexcharts.mjs depends on 'apexcharts'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on https://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  8.35 kB |
+
+5 unchanged chunks
+
+Build at: 2022-09-07T10:55:03.171Z - Hash: a320f02d246a0fda - Time: 840ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 162.34 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-07T11:27:08.860Z - Hash: 952f12d1d434ba2c - Time: 2069ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 162.34 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-07T11:27:11.090Z - Hash: 6404d84a19f82f07 - Time: 798ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+6 unchanged chunks
+
+Build at: 2022-09-07T11:27:46.439Z - Hash: 6404d84a19f82f07 - Time: 890ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+6 unchanged chunks
+
+Build at: 2022-09-07T11:27:58.776Z - Hash: 6404d84a19f82f07 - Time: 732ms
+
+✔ Compiled successfully.
+Warning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disable-host-check" if that's the
+case.
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |  10.65 MB |
+styles.css, styles.js | styles        | 706.57 kB |
+polyfills.js          | polyfills     | 315.30 kB |
+main.js               | main          | 162.34 kB |
+scripts.js            | scripts       |  20.32 kB |
+runtime.js            | runtime       |   8.35 kB |
+
+| Initial Total |  11.83 MB
+
+Build at: 2022-09-07T14:24:19.378Z - Hash: c4c1977961f532a5 - Time: 8998ms
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'jszip'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'lodash.mergewith'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/ng-apexcharts/fesm2020/ng-apexcharts.mjs depends on 'apexcharts'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on https://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  8.35 kB |
+
+5 unchanged chunks
+
+Build at: 2022-09-07T14:24:20.366Z - Hash: 6404d84a19f82f07 - Time: 858ms
+
+✔ Compiled successfully.
+Warning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disable-host-check" if that's the
+case.
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |  10.65 MB |
+styles.css, styles.js | styles        | 706.57 kB |
+polyfills.js          | polyfills     | 315.30 kB |
+main.js               | main          | 162.34 kB |
+scripts.js            | scripts       |  20.32 kB |
+runtime.js            | runtime       |   8.35 kB |
+
+| Initial Total |  11.83 MB
+
+Build at: 2022-09-07T14:25:43.747Z - Hash: c4c1977961f532a5 - Time: 8323ms
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'jszip'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'lodash.mergewith'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/ng-apexcharts/fesm2020/ng-apexcharts.mjs depends on 'apexcharts'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on https://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  8.35 kB |
+
+5 unchanged chunks
+
+Build at: 2022-09-07T14:25:44.751Z - Hash: 6404d84a19f82f07 - Time: 875ms
+
+✔ Compiled successfully.
+Warning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disable-host-check" if that's the
+case.
+- Generating browser application bundles (phase: setup)...
+? Port 4200 is already in use.
+Would you like to use a different port? (Y/n) [46D[46C✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |  10.65 MB |
+styles.css, styles.js | styles        | 706.57 kB |
+polyfills.js          | polyfills     | 315.30 kB |
+main.js               | main          | 162.34 kB |
+scripts.js            | scripts       |  20.32 kB |
+runtime.js            | runtime       |   8.35 kB |
+
+| Initial Total |  11.83 MB
+
+Build at: 2022-09-08T05:22:30.136Z - Hash: c4c1977961f532a5 - Time: 8442ms
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'jszip'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'lodash.mergewith'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/ng-apexcharts/fesm2020/ng-apexcharts.mjs depends on 'apexcharts'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on https://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  8.35 kB |
+
+5 unchanged chunks
+
+Build at: 2022-09-08T05:22:31.138Z - Hash: 6404d84a19f82f07 - Time: 863ms
+
+✔ Compiled successfully.
+? Port 4200 is already in use.
+Would you like to use a different port? (Y/n) [46D[46CWarning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disable-host-check" if that's the
+case.
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |  10.65 MB |
+styles.css, styles.js | styles        | 706.57 kB |
+polyfills.js          | polyfills     | 315.30 kB |
+main.js               | main          | 162.34 kB |
+scripts.js            | scripts       |  20.32 kB |
+runtime.js            | runtime       |   8.35 kB |
+
+| Initial Total |  11.83 MB
+
+Build at: 2022-09-08T10:39:36.765Z - Hash: c4c1977961f532a5 - Time: 8394ms
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'jszip'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'lodash.mergewith'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/ng-apexcharts/fesm2020/ng-apexcharts.mjs depends on 'apexcharts'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on https://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  8.35 kB |
+
+5 unchanged chunks
+
+Build at: 2022-09-08T10:39:37.768Z - Hash: 6404d84a19f82f07 - Time: 873ms
+
+✔ Compiled successfully.
+Warning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disable-host-check" if that's the
+case.
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |  10.65 MB |
+styles.css, styles.js | styles        | 706.57 kB |
+polyfills.js          | polyfills     | 315.30 kB |
+main.js               | main          | 162.34 kB |
+scripts.js            | scripts       |  20.32 kB |
+runtime.js            | runtime       |   8.35 kB |
+
+| Initial Total |  11.83 MB
+
+Build at: 2022-09-08T10:40:25.224Z - Hash: c4c1977961f532a5 - Time: 8213ms
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'jszip'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'lodash.mergewith'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/ng-apexcharts/fesm2020/ng-apexcharts.mjs depends on 'apexcharts'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on https://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  8.35 kB |
+
+5 unchanged chunks
+
+Build at: 2022-09-08T10:40:26.226Z - Hash: 6404d84a19f82f07 - Time: 864ms
+
+✔ Compiled successfully.
+Warning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disable-host-check" if that's the
+case.
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |  10.65 MB |
+styles.css, styles.js | styles        | 706.57 kB |
+polyfills.js          | polyfills     | 315.30 kB |
+main.js               | main          | 162.34 kB |
+scripts.js            | scripts       |  20.32 kB |
+runtime.js            | runtime       |   8.35 kB |
+
+| Initial Total |  11.83 MB
+
+Build at: 2022-09-08T10:41:00.509Z - Hash: c4c1977961f532a5 - Time: 8389ms
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'jszip'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'lodash.mergewith'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/ng-apexcharts/fesm2020/ng-apexcharts.mjs depends on 'apexcharts'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on https://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  8.35 kB |
+
+5 unchanged chunks
+
+Build at: 2022-09-08T10:41:01.473Z - Hash: 6404d84a19f82f07 - Time: 853ms
+
+✔ Compiled successfully.
+Warning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disable-host-check" if that's the
+case.
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |  10.65 MB |
+styles.css, styles.js | styles        | 706.57 kB |
+polyfills.js          | polyfills     | 315.30 kB |
+main.js               | main          | 162.34 kB |
+scripts.js            | scripts       |  20.32 kB |
+runtime.js            | runtime       |   8.35 kB |
+
+| Initial Total |  11.83 MB
+
+Build at: 2022-09-08T10:57:45.165Z - Hash: c4c1977961f532a5 - Time: 8495ms
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'jszip'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'lodash.mergewith'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/ng-apexcharts/fesm2020/ng-apexcharts.mjs depends on 'apexcharts'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on https://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  8.35 kB |
+
+5 unchanged chunks
+
+Build at: 2022-09-08T10:57:46.161Z - Hash: 6404d84a19f82f07 - Time: 878ms
+
+✔ Compiled successfully.
+Warning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disable-host-check" if that's the
+case.
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |  10.65 MB |
+styles.css, styles.js | styles        | 706.57 kB |
+polyfills.js          | polyfills     | 315.30 kB |
+main.js               | main          | 162.34 kB |
+scripts.js            | scripts       |  20.32 kB |
+runtime.js            | runtime       |   8.35 kB |
+
+| Initial Total |  11.83 MB
+
+Build at: 2022-09-08T11:08:25.326Z - Hash: c4c1977961f532a5 - Time: 8392ms
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'jszip'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'lodash.mergewith'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/ng-apexcharts/fesm2020/ng-apexcharts.mjs depends on 'apexcharts'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on https://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  8.35 kB |
+
+5 unchanged chunks
+
+Build at: 2022-09-08T11:08:26.337Z - Hash: 6404d84a19f82f07 - Time: 872ms
+
+✔ Compiled successfully.
+? Port 4200 is already in use.
+Would you like to use a different port? (Y/n) [46D[46C? Port 4200 is already in use.
+Would you like to use a different port? (Y/n) [46D[46CWarning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disable-host-check" if that's the
+case.
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |  10.65 MB |
+styles.css, styles.js | styles        | 706.57 kB |
+polyfills.js          | polyfills     | 315.30 kB |
+main.js               | main          | 162.34 kB |
+scripts.js            | scripts       |  20.32 kB |
+runtime.js            | runtime       |   8.35 kB |
+
+| Initial Total |  11.83 MB
+
+Build at: 2022-09-08T11:18:07.097Z - Hash: c4c1977961f532a5 - Time: 8393ms
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'jszip'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'lodash.mergewith'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/ng-apexcharts/fesm2020/ng-apexcharts.mjs depends on 'apexcharts'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on https://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  8.35 kB |
+
+5 unchanged chunks
+
+Build at: 2022-09-08T11:18:08.150Z - Hash: 6404d84a19f82f07 - Time: 903ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.17 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T05:44:01.450Z - Hash: 99d371bbb4386495 - Time: 1285ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.19 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T05:44:06.477Z - Hash: 48e66c52b25cf499 - Time: 1679ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.20 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T05:45:04.181Z - Hash: be0f23d3ff3d50e9 - Time: 1038ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.20 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T05:45:52.576Z - Hash: e42686d41d444589 - Time: 869ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.20 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T05:47:22.140Z - Hash: 330f69f0c2424256 - Time: 1054ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.20 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T05:47:54.880Z - Hash: 92408b7e04826a1e - Time: 846ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.24 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T05:52:50.918Z - Hash: 3252a07ee484ecca - Time: 1044ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.24 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T05:53:56.202Z - Hash: 428e88bca4cf987a - Time: 750ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.25 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T05:54:59.402Z - Hash: e4690f0e991d6d16 - Time: 1093ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.25 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T05:55:51.682Z - Hash: 86a44cd22749de30 - Time: 819ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.24 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T05:56:18.161Z - Hash: 3252a07ee484ecca - Time: 1008ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.19 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T05:57:22.432Z - Hash: 1f666022e100ecc2 - Time: 1632ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.25 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T05:58:26.081Z - Hash: ebd6ff79d2b8ce1b - Time: 887ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.26 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T05:58:53.955Z - Hash: eace9d03c5973f4a - Time: 859ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.26 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T05:59:42.380Z - Hash: cc276b1289d01f10 - Time: 848ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.26 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T06:00:17.611Z - Hash: 06a57f15816725cd - Time: 866ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.26 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T06:00:55.076Z - Hash: 25d29bbff14b2c55 - Time: 863ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.61 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T06:06:30.565Z - Hash: 200f23c466d7c220 - Time: 1022ms
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:44:39 - error TS2552: Cannot find name 'elemement'. Did you mean 'element'?
+
+44         }else if(element.status==1 || elemement.status==8){
+                                         ~~~~~~~~~
+
+  src/app/messageManagement/view-messages/view-messages.component.ts:39:27
+    39        this.post.forEach((element: any) => {
+                                 ~~~~~~~~~~~~
+    'element' is declared here.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.61 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T06:06:52.281Z - Hash: a4209d2660b9d873 - Time: 957ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.54 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T06:13:39.691Z - Hash: 02add9029dfd7e45 - Time: 947ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.60 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T06:15:04.358Z - Hash: 89a67c850edbb5b3 - Time: 869ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.59 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T06:15:33.576Z - Hash: ec7734c0d4c964ea - Time: 846ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.59 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T06:15:56.412Z - Hash: 5d96d9239603015c - Time: 766ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.59 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T06:36:46.324Z - Hash: 6a782f01c5fd868a - Time: 936ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.78 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T06:41:46.053Z - Hash: 961a48638616dc7f - Time: 865ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.78 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T07:04:58.110Z - Hash: 429c192053d05d91 - Time: 867ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.92 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T07:06:50.397Z - Hash: fb5617f0a3b84174 - Time: 1038ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.92 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T07:07:15.379Z - Hash: 86f6a6ccbc045229 - Time: 739ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.92 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T07:07:36.232Z - Hash: 597a0e18192db928 - Time: 702ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.93 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T07:08:11.988Z - Hash: e2bfa3ecb129150a - Time: 851ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.87 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T07:08:38.971Z - Hash: 0cbb7e7d4d1b7ba0 - Time: 874ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.92 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T07:09:26.387Z - Hash: 3c8f4a3d0980e554 - Time: 818ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.92 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T07:10:06.483Z - Hash: 511fef9238635a6c - Time: 801ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.78 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T07:10:23.438Z - Hash: 15bc85a2b185edea - Time: 740ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 164.83 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-15T11:18:15.369Z - Hash: fef1616198bd0c09 - Time: 1669ms
+
+✔ Compiled successfully.
+Warning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disable-host-check" if that's the
+case.
+Warning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disable-host-check" if that's the
+case.
+- Generating browser application bundles (phase: setup)...
+- Generating browser application bundles (phase: setup)...
+/home/regasaa/sms-gateway/node_modules/webpack-dev-server/lib/Server.js:2429
+        throw error;
+        ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:4200
+    at Server.setupListenHandle [as _listen2] (node:net:1432:16)
+    at listenInCluster (node:net:1480:12)
+    at doListen (node:net:1629:7)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 4200
+}
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |  10.65 MB |
+styles.css, styles.js | styles        | 706.57 kB |
+polyfills.js          | polyfills     | 315.30 kB |
+main.js               | main          | 164.83 kB |
+scripts.js            | scripts       |  20.32 kB |
+runtime.js            | runtime       |   8.35 kB |
+
+| Initial Total |  11.83 MB
+
+Build at: 2022-09-17T07:51:26.238Z - Hash: d6232e45d6c25430 - Time: 35317ms
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'jszip'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/igniteui-angular/fesm2020/igniteui-angular.mjs depends on 'lodash.mergewith'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/regasaa/sms-gateway/node_modules/ng-apexcharts/fesm2020/ng-apexcharts.mjs depends on 'apexcharts'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on https://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  8.35 kB |
+
+5 unchanged chunks
+
+Build at: 2022-09-17T07:51:27.357Z - Hash: fef1616198bd0c09 - Time: 987ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+6 unchanged chunks
+
+Build at: 2022-09-19T07:27:29.900Z - Hash: fef1616198bd0c09 - Time: 8154ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+vendor.js           | vendor  |  11.17 MB |
+main.js             | main    | 165.39 kB |
+runtime.js          | runtime |   8.35 kB |
+
+3 unchanged chunks
+
+Build at: 2022-09-19T07:29:49.722Z - Hash: 1b8c2a054ccf7ef8 - Time: 8257ms
+
+Warning: /home/regasaa/sms-gateway/src/app/messageManagement/view-messages/view-messages.component.ts depends on 'lodash'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:6:20 - error TS7016: Could not find a declaration file for module 'lodash'. '/home/regasaa/sms-gateway/node_modules/lodash/lodash.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/lodash` if it exists or add a new declaration (.d.ts) file containing `declare module 'lodash';`
+
+6 import * as _ from "lodash";
+                     ~~~~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:69:41 - error TS7006: Parameter 'item' implicitly has an 'any' type.
+
+69    let filterData=_.filter(this.posts, (item) => {
+                                           ~~~~
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 167.25 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T07:29:50.538Z - Hash: 84316977ec0cfba4 - Time: 751ms
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:6:20 - error TS7016: Could not find a declaration file for module 'lodash'. '/home/regasaa/sms-gateway/node_modules/lodash/lodash.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/lodash` if it exists or add a new declaration (.d.ts) file containing `declare module 'lodash';`
+
+6 import * as _ from "lodash";
+                     ~~~~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:69:41 - error TS7006: Parameter 'item' implicitly has an 'any' type.
+
+69    let filterData=_.filter(this.posts, (item) => {
+                                           ~~~~
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+6 unchanged chunks
+
+Build at: 2022-09-19T07:30:50.128Z - Hash: 84316977ec0cfba4 - Time: 2078ms
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:6:20 - error TS7016: Could not find a declaration file for module 'lodash'. '/home/regasaa/sms-gateway/node_modules/lodash/lodash.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/lodash` if it exists or add a new declaration (.d.ts) file containing `declare module 'lodash';`
+
+6 import * as _ from "lodash";
+                     ~~~~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:69:41 - error TS7006: Parameter 'item' implicitly has an 'any' type.
+
+69    let filterData=_.filter(this.posts, (item) => {
+                                           ~~~~
+
+
+
+
+✖ Failed to compile.
+Your global Angular CLI version (14.2.1) is greater than your local version (14.0.7). The local Angular CLI version is used.
+
+To disable this warning use "ng config -g cli.warnings.versionMismatch false".
+? Port 4200 is already in use.
+Would you like to use a different port? (Y/n) [46D[46CYour global Angular CLI version (14.2.1) is greater than your local version (14.0.7). The local Angular CLI version is used.
+
+To disable this warning use "ng config -g cli.warnings.versionMismatch false".
+? Port 4200 is already in use.
+Would you like to use a different port? (Y/n) [46D[46C✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+vendor.js           | vendor  |  10.65 MB |
+main.js             | main    | 166.93 kB |
+runtime.js          | runtime |   8.35 kB |
+
+3 unchanged chunks
+
+Build at: 2022-09-19T07:33:34.340Z - Hash: 7b4d9d43262eab8b - Time: 2192ms
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:76:1 - error TS1005: '}' expected.
+
+76 
+   
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 166.92 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T07:33:57.953Z - Hash: fe84f3ef88a6c138 - Time: 844ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 166.92 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T07:35:40.173Z - Hash: e661af7faad69c14 - Time: 5142ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+vendor.js           | vendor  |  11.17 MB |
+main.js             | main    | 167.25 kB |
+runtime.js          | runtime |   8.35 kB |
+
+3 unchanged chunks
+
+Build at: 2022-09-19T07:35:58.801Z - Hash: a173d2a5c7c767a9 - Time: 1867ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 167.34 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T07:37:13.085Z - Hash: 449b095d4218779a - Time: 1029ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 167.44 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T07:38:51.816Z - Hash: 4a246d6c79f03e40 - Time: 876ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 167.75 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T07:40:36.115Z - Hash: e911b9abee256915 - Time: 1038ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 167.89 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T07:42:32.963Z - Hash: 925de2320cbaec22 - Time: 903ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.01 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T07:49:20.121Z - Hash: 0d3e96eef66c4ece - Time: 1023ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.83 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T07:56:11.809Z - Hash: 77fb75b1e6394867 - Time: 1033ms
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:30:12 - error TS1442: Expected '=' for property initializer.
+
+30   post: any,
+              ~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:66:12 - error TS2339: Property 'value' does not exist on type 'Event'.
+
+66   if(event.value!==""){
+              ~~~~~
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.83 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T07:56:34.417Z - Hash: 5c49066fc7cbdce4 - Time: 914ms
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:66:12 - error TS2339: Property 'value' does not exist on type 'Event'.
+
+66   if(event.value!==""){
+              ~~~~~
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.83 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T07:57:02.341Z - Hash: 712de4dd089362e5 - Time: 815ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.83 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T07:59:48.072Z - Hash: 37fcffade41760ab - Time: 1088ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.61 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:00:35.884Z - Hash: 8b0fad89c34cf5c5 - Time: 967ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.64 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:02:16.587Z - Hash: 4d5a76de00992ae9 - Time: 919ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.57 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:06:31.324Z - Hash: 454a02adc49c5b7e - Time: 1050ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 167.59 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:07:48.077Z - Hash: f09cd620945b7ae9 - Time: 1087ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 167.90 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:10:29.673Z - Hash: 704d2766e78d1b5a - Time: 1039ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 167.90 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:11:06.290Z - Hash: 5ca8ce5dfddcc847 - Time: 846ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.44 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:18:24.830Z - Hash: d5d6b8f16eb38185 - Time: 1196ms
+
+Error: src/app/messageManagement/view-messages/view-messages.component.html:12:88 - error TS2339: Property 'applyChange' does not exist on type 'ViewMessagesComponent'.
+
+12                 <mat-select matInput placeholder="search by status" (selectionChange)="applyChange($event)">
+                                                                                          ~~~~~~~~~~~
+
+  src/app/messageManagement/view-messages/view-messages.component.ts:20:16
+    20   templateUrl: './view-messages.component.html',
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component ViewMessagesComponent.
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:65:3 - error TS2663: Cannot find name 'filterData'. Did you mean the instance member 'this.filterData'?
+
+65   filterData=_.filter(this.posts, (item) => {
+     ~~~~~~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:66:47 - error TS2339: Property 'value' does not exist on type 'Event'.
+
+66     return item.status.toLowerCase() == event.value.toLowerCase();
+                                                 ~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:68:45 - error TS2663: Cannot find name 'filterData'. Did you mean the instance member 'this.filterData'?
+
+68    this.dataSource = new MatTableDataSource(filterData)
+                                               ~~~~~~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:78:5 - error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+
+78     this.dataSource.filter = filterValue.trim().toLowerCase()
+       ~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:78:5 - error TS2532: Object is possibly 'undefined'.
+
+78     this.dataSource.filter = filterValue.trim().toLowerCase()
+       ~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:78:30 - error TS2304: Cannot find name 'filterValue'.
+
+78     this.dataSource.filter = filterValue.trim().toLowerCase()
+                                ~~~~~~~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:80:8 - error TS2532: Object is possibly 'undefined'.
+
+80     if(this.dataSource.paginator){
+          ~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:81:7 - error TS2532: Object is possibly 'undefined'.
+
+81       this.dataSource.paginator.firstPage()
+         ~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:83:3 - error TS1128: Declaration or statement expected.
+
+83   }
+     ~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:84:2 - error TS2304: Cannot find name 'applyChange'.
+
+84  applyChange(event: any){
+    ~~~~~~~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:84:19 - error TS1005: ',' expected.
+
+84  applyChange(event: any){
+                     ~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:84:21 - error TS2693: 'any' only refers to a type, but is being used as a value here.
+
+84  applyChange(event: any){
+                       ~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:84:25 - error TS1005: ';' expected.
+
+84  applyChange(event: any){
+                           ~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:85:6 - error TS2532: Object is possibly 'undefined'.
+
+85   if(event.value!="all"){
+        ~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:85:12 - error TS2339: Property 'value' does not exist on type 'Event'.
+
+85   if(event.value!="all"){
+              ~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:86:3 - error TS2532: Object is possibly 'undefined'.
+
+86   this.filterData=_.filter(this.filterData, (item) => {
+     ~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:86:28 - error TS2532: Object is possibly 'undefined'.
+
+86   this.filterData=_.filter(this.filterData, (item) => {
+                              ~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:87:41 - error TS2532: Object is possibly 'undefined'.
+
+87     return item.status.toLowerCase() == event.value.toLowerCase();
+                                           ~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:87:47 - error TS2339: Property 'value' does not exist on type 'Event'.
+
+87     return item.status.toLowerCase() == event.value.toLowerCase();
+                                                 ~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:89:4 - error TS2532: Object is possibly 'undefined'.
+
+89    this.dataSource = new MatTableDataSource(filterData)
+      ~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:89:45 - error TS2304: Cannot find name 'filterData'.
+
+89    this.dataSource = new MatTableDataSource(filterData)
+                                               ~~~~~~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:90:4 - error TS2532: Object is possibly 'undefined'.
+
+90    this.dataSource.paginator = this.paginator
+      ~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:90:32 - error TS2532: Object is possibly 'undefined'.
+
+90    this.dataSource.paginator = this.paginator
+                                  ~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:91:4 - error TS2532: Object is possibly 'undefined'.
+
+91    this.dataSource.sort = this.sort
+      ~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:91:27 - error TS2532: Object is possibly 'undefined'.
+
+91    this.dataSource.sort = this.sort
+                             ~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:93:4 - error TS2532: Object is possibly 'undefined'.
+
+93    this.dataSource = new MatTableDataSource(this.posts)
+      ~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:93:45 - error TS2532: Object is possibly 'undefined'.
+
+93    this.dataSource = new MatTableDataSource(this.posts)
+                                               ~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:94:4 - error TS2532: Object is possibly 'undefined'.
+
+94    this.dataSource.paginator = this.paginator
+      ~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:94:32 - error TS2532: Object is possibly 'undefined'.
+
+94    this.dataSource.paginator = this.paginator
+                                  ~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:95:4 - error TS2532: Object is possibly 'undefined'.
+
+95    this.dataSource.sort = this.sort
+      ~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:95:27 - error TS2532: Object is possibly 'undefined'.
+
+95    this.dataSource.sort = this.sort
+                             ~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:100:1 - error TS1128: Declaration or statement expected.
+
+100 }
+    ~
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.28 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:19:12.705Z - Hash: b4a9286938a6ca11 - Time: 770ms
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:65:3 - error TS2663: Cannot find name 'filterData'. Did you mean the instance member 'this.filterData'?
+
+65   filterData=_.filter(this.posts, (item) => {
+     ~~~~~~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:66:47 - error TS2339: Property 'value' does not exist on type 'Event'.
+
+66     return item.status.toLowerCase() == event.value.toLowerCase();
+                                                 ~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:68:45 - error TS2663: Cannot find name 'filterData'. Did you mean the instance member 'this.filterData'?
+
+68    this.dataSource = new MatTableDataSource(filterData)
+                                               ~~~~~~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:81:45 - error TS2663: Cannot find name 'filterData'. Did you mean the instance member 'this.filterData'?
+
+81    this.dataSource = new MatTableDataSource(filterData)
+                                               ~~~~~~~~~~
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.28 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:20:16.474Z - Hash: 36820a56661b658f - Time: 898ms
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:65:5 - error TS2663: Cannot find name 'filterData'. Did you mean the instance member 'this.filterData'?
+
+65     filterData = _.filter(this.posts, (item) => {
+       ~~~~~~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:66:49 - error TS2339: Property 'value' does not exist on type 'Event'.
+
+66       return item.status.toLowerCase() == event.value.toLowerCase();
+                                                   ~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:68:46 - error TS2663: Cannot find name 'filterData'. Did you mean the instance member 'this.filterData'?
+
+68     this.dataSource = new MatTableDataSource(filterData)
+                                                ~~~~~~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:81:45 - error TS2663: Cannot find name 'filterData'. Did you mean the instance member 'this.filterData'?
+
+81    this.dataSource = new MatTableDataSource(filterData)
+                                               ~~~~~~~~~~
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.28 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:20:41.493Z - Hash: d908c30719da9a98 - Time: 899ms
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:66:49 - error TS2339: Property 'value' does not exist on type 'Event'.
+
+66       return item.status.toLowerCase() == event.value.toLowerCase();
+                                                   ~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:68:46 - error TS2663: Cannot find name 'filterData'. Did you mean the instance member 'this.filterData'?
+
+68     this.dataSource = new MatTableDataSource(filterData)
+                                                ~~~~~~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:81:45 - error TS2663: Cannot find name 'filterData'. Did you mean the instance member 'this.filterData'?
+
+81    this.dataSource = new MatTableDataSource(filterData)
+                                               ~~~~~~~~~~
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.28 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:21:12.855Z - Hash: 5245c5bf6d476f8c - Time: 1009ms
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:68:46 - error TS2663: Cannot find name 'filterData'. Did you mean the instance member 'this.filterData'?
+
+68     this.dataSource = new MatTableDataSource(filterData)
+                                                ~~~~~~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:81:45 - error TS2663: Cannot find name 'filterData'. Did you mean the instance member 'this.filterData'?
+
+81    this.dataSource = new MatTableDataSource(filterData)
+                                               ~~~~~~~~~~
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.29 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:21:25.627Z - Hash: 883350b6b243107c - Time: 772ms
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:81:45 - error TS2663: Cannot find name 'filterData'. Did you mean the instance member 'this.filterData'?
+
+81    this.dataSource = new MatTableDataSource(filterData)
+                                               ~~~~~~~~~~
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.29 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:21:35.495Z - Hash: dccb79cb4bd84772 - Time: 782ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.51 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:22:24.338Z - Hash: e40bfb44484bb490 - Time: 1045ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.63 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:23:47.779Z - Hash: 5c9f9436e2f88927 - Time: 1019ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 167.90 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:25:05.007Z - Hash: c96c0555a72ed387 - Time: 1028ms
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:84:1 - error TS1005: '}' expected.
+
+84 
+   
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 167.90 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:25:19.664Z - Hash: 02b9712373592425 - Time: 755ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 167.94 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:29:36.118Z - Hash: 67a6f0e44eefa8b7 - Time: 1068ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 167.95 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:30:51.551Z - Hash: 67399907342d30cb - Time: 998ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.62 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:32:12.339Z - Hash: cc97dd037c5871d9 - Time: 841ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+6 unchanged chunks
+
+Build at: 2022-09-19T08:35:59.791Z - Hash: cc97dd037c5871d9 - Time: 1047ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.57 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:37:04.165Z - Hash: ac7d336074940d7b - Time: 949ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.06 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:48:31.577Z - Hash: 7d63bebb12860d6c - Time: 1073ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.06 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:48:32.358Z - Hash: ddf74750442fb4a8 - Time: 738ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.07 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:50:01.066Z - Hash: d8d03da17df27a8c - Time: 801ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.08 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:50:54.497Z - Hash: f4140122b057692c - Time: 1048ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.08 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:51:49.563Z - Hash: 71847dc23ec9143f - Time: 882ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+6 unchanged chunks
+
+Build at: 2022-09-19T08:52:26.240Z - Hash: 71847dc23ec9143f - Time: 930ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+6 unchanged chunks
+
+Build at: 2022-09-19T08:52:47.428Z - Hash: 71847dc23ec9143f - Time: 876ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.33 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:53:21.861Z - Hash: d72675b8ec508101 - Time: 856ms
+
+Error: src/app/messageManagement/view-messages/view-messages.component.html:55:113 - error TS2339: Property 'input' does not exist on type 'ViewMessagesComponent'.
+
+55                 <td class="mat-cell" colspan="4">The filter does not match any item in the data for this text {{input.value}} </td>
+                                                                                                                   ~~~~~
+
+  src/app/messageManagement/view-messages/view-messages.component.ts:20:16
+    20   templateUrl: './view-messages.component.html',
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component ViewMessagesComponent.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.08 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:53:52.886Z - Hash: 1cd2d1a5c248831b - Time: 896ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.40 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:54:01.392Z - Hash: 065805c8dc21086a - Time: 769ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.43 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:54:40.553Z - Hash: 6c26b598df07257c - Time: 1056ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.40 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:56:02.655Z - Hash: 065805c8dc21086a - Time: 993ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.43 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T08:58:33.568Z - Hash: 5de969d2bf75d838 - Time: 1023ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.27 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T09:00:37.428Z - Hash: 5ba636f4de5515f3 - Time: 953ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.44 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T09:01:10.203Z - Hash: 9fd53d029cb4f3ca - Time: 859ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.43 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T09:01:31.694Z - Hash: 5de969d2bf75d838 - Time: 878ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.46 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T09:02:38.490Z - Hash: 2d3839c323531d15 - Time: 1046ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.43 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T09:02:59.973Z - Hash: 3370f1384737960a - Time: 917ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.47 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T10:22:18.337Z - Hash: f64e0602f78a9909 - Time: 1053ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.48 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T10:23:51.081Z - Hash: 63aa5e7e94180bba - Time: 876ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.48 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T10:28:24.940Z - Hash: bc59b485f3c693f6 - Time: 997ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.49 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T10:30:34.449Z - Hash: 21e21e87f28d8f23 - Time: 1221ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+vendor.js           | vendor  |  10.65 MB |
+main.js             | main    | 144.43 kB |
+runtime.js          | runtime |   8.35 kB |
+
+3 unchanged chunks
+
+Build at: 2022-09-19T10:31:25.125Z - Hash: 325afc0ff9932622 - Time: 1770ms
+
+./src/app/messageManagement/view-messages/view-messages.component.ts:212:19 - Error: Module parse failed: Assigning to rvalue (212:19)
+File was processed with these loaders:
+ * ./node_modules/@angular-devkit/build-angular/src/babel/webpack-loader.js
+ * ./node_modules/@ngtools/webpack/src/ivy/index.js
+You may need an additional loader to handle the result of these loaders.
+|         this.batchFilter = _.filter(this.posts, (item) => {
+|             alert(item.messageBatch + filterValue);
+>             return item.messageBatch.toLowerCase() = filterValue.trim().toLowerCase();
+|         });
+|         alert("asan jira");
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:74:14 - error TS2364: The left-hand side of an assignment expression must be a variable or a property access.
+
+74       return item.messageBatch.toLowerCase()=filterValue.trim().toLowerCase();
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+vendor.js           | vendor  |  11.17 MB |
+main.js             | main    | 168.49 kB |
+runtime.js          | runtime |   8.35 kB |
+
+3 unchanged chunks
+
+Build at: 2022-09-19T10:31:40.951Z - Hash: 21e21e87f28d8f23 - Time: 1788ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.44 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T10:32:09.598Z - Hash: a7b737bc0b4fd6eb - Time: 836ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.43 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T10:37:07.400Z - Hash: fa0fc68a9543cb41 - Time: 997ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.40 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T10:38:25.180Z - Hash: 2c125e6f6ed9de15 - Time: 1080ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.39 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T10:39:46.491Z - Hash: a6c880cd6fb4961c - Time: 873ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.38 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T10:41:06.477Z - Hash: dcc51173e5c2f338 - Time: 995ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.38 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T10:41:09.575Z - Hash: 6b6c25ca42ab55d8 - Time: 752ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.39 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T10:42:07.461Z - Hash: adb74ed53703f828 - Time: 994ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.47 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T10:46:10.026Z - Hash: ab13b8c9271ccb08 - Time: 1001ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.70 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T10:52:48.389Z - Hash: dd0a7fe8e9057873 - Time: 1143ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.70 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T10:52:56.238Z - Hash: 9bfca1917fa12d65 - Time: 754ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.00 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T10:55:37.875Z - Hash: 6e153ba438deed18 - Time: 1002ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.43 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T10:57:08.529Z - Hash: 180bebd048c98dd2 - Time: 1012ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.51 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T10:59:56.829Z - Hash: 5ee7e27e3a6d9975 - Time: 992ms
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:72:8 - error TS2663: Cannot find name 'statusFilter'. Did you mean the instance member 'this.statusFilter'?
+
+72     if(statusFilter!=[]){
+          ~~~~~~~~~~~~
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.52 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:00:19.308Z - Hash: bdee21e8f466c1b3 - Time: 1009ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 168.70 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:03:06.651Z - Hash: 9f80ddb4ecdb037c - Time: 1025ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.00 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:05:01.499Z - Hash: 7a69d13c14ae9434 - Time: 999ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.50 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:07:03.921Z - Hash: 83933fb9ab5f8176 - Time: 1112ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.00 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:08:43.778Z - Hash: 7a69d13c14ae9434 - Time: 1063ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.00 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:12:22.658Z - Hash: be64b73aa879817d - Time: 1000ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.03 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:13:23.490Z - Hash: 3855244e7aa5c6b7 - Time: 1043ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.03 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:14:24.153Z - Hash: 3ae44f6734481feb - Time: 1337ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.03 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:14:58.933Z - Hash: 2fd781c61407c1d6 - Time: 954ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.03 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:15:24.171Z - Hash: 94097826d2bd820d - Time: 1162ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.03 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:16:10.153Z - Hash: 9160bfbd5c5073f4 - Time: 949ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.04 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:16:48.339Z - Hash: 920461ed61566cd4 - Time: 963ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.04 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:17:22.306Z - Hash: 1363e0a29f753624 - Time: 1131ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.03 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:17:43.521Z - Hash: 9160bfbd5c5073f4 - Time: 925ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.03 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:17:58.177Z - Hash: 8bdc03b1e22e365e - Time: 881ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.04 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:18:27.944Z - Hash: 402469d944d05fb4 - Time: 874ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.04 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:20:51.295Z - Hash: a18bba8dde4ea38c - Time: 998ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.04 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:21:12.786Z - Hash: 7f33519b34ff7948 - Time: 940ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.00 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:21:43.763Z - Hash: b21956e2004456fa - Time: 1203ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.01 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:22:05.939Z - Hash: 3ad494a8e7601e9b - Time: 981ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.51 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:25:31.227Z - Hash: 18bb3da24ed76ad4 - Time: 1016ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.23 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:26:53.662Z - Hash: da24a3538c96ab18 - Time: 972ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.31 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:30:57.928Z - Hash: 3ed63944b30666bb - Time: 1180ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.32 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:35:35.356Z - Hash: 65e9269de471e443 - Time: 898ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.15 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:36:22.009Z - Hash: 873c8d4e815822dc - Time: 823ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.31 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:36:49.393Z - Hash: 3ed63944b30666bb - Time: 934ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.31 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:37:41.501Z - Hash: 03bf7148149a6ea4 - Time: 1105ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.32 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:38:52.491Z - Hash: cd3e5d3f980a16fa - Time: 1031ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.47 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:40:01.718Z - Hash: 7772b913fd726fa7 - Time: 1148ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.53 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T11:43:49.113Z - Hash: 5a2aaf50b71d89b3 - Time: 990ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.57 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T12:20:51.935Z - Hash: 9404e9ebadaaf3fb - Time: 1016ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.69 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T12:41:47.666Z - Hash: 66f7c775d7da5f73 - Time: 1085ms
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:33:18 - error TS2304: Cannot find name 'FormGroup'.
+
+33   formData = new FormGroup({
+                    ~~~~~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:34:20 - error TS2304: Cannot find name 'FormControl'.
+
+34    batchField: new FormControl()
+                      ~~~~~~~~~~~
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 170.41 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T12:41:49.413Z - Hash: 2443e2a28e30db73 - Time: 766ms
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:33:18 - error TS2304: Cannot find name 'FormGroup'.
+
+33   formData = new FormGroup({
+                    ~~~~~~~~~
+
+
+Error: src/app/messageManagement/view-messages/view-messages.component.ts:34:20 - error TS2304: Cannot find name 'FormControl'.
+
+34    batchField: new FormControl()
+                      ~~~~~~~~~~~
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 170.50 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T12:42:31.368Z - Hash: e95aacbe252745d4 - Time: 1298ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 170.47 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T12:44:45.493Z - Hash: dd6c198271595f8c - Time: 982ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 170.49 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T12:45:48.625Z - Hash: 1c31bf770734dd25 - Time: 926ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 170.50 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T12:47:19.135Z - Hash: 02eac08bd99927d8 - Time: 972ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 170.50 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T12:47:26.702Z - Hash: 4576ea0841c3f1d9 - Time: 803ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 170.50 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T12:49:41.820Z - Hash: e77e233c2f3ba6a7 - Time: 1007ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 170.50 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T12:51:10.047Z - Hash: a6f09a496c7cb6eb - Time: 986ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 170.28 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:00:09.255Z - Hash: eace92a8bd87f132 - Time: 1069ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 170.28 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:01:50.608Z - Hash: b49a7ead67552900 - Time: 1023ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.33 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:11:57.082Z - Hash: 8b49952a5815f3b1 - Time: 1085ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.35 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:15:53.244Z - Hash: 4900dad24359a634 - Time: 969ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.37 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:16:37.070Z - Hash: 1825bcd250c7cd82 - Time: 958ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.39 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:17:42.979Z - Hash: b5df0d9380882a36 - Time: 958ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.33 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:20:02.336Z - Hash: f3a12d20c500a65b - Time: 981ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.36 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:24:22.321Z - Hash: e1da7cbe71835bee - Time: 1044ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.30 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:24:23.181Z - Hash: 51b460fa624d5c4d - Time: 805ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.05 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:24:45.870Z - Hash: 475829ad6242bb5e - Time: 710ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.74 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:27:08.799Z - Hash: 63c3143ea979c09e - Time: 890ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.76 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:27:22.411Z - Hash: 328318961694477d - Time: 785ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.77 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:27:37.048Z - Hash: 815f639159ed33d1 - Time: 706ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.73 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:27:58.730Z - Hash: 396c83b2b59d3d13 - Time: 830ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.80 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:32:21.044Z - Hash: 8647082cc553eb90 - Time: 963ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 170.00 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:37:13.704Z - Hash: 3504ef108c7e7383 - Time: 1013ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 170.00 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:39:17.223Z - Hash: baed3ad025040519 - Time: 1022ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 170.00 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:39:53.613Z - Hash: 2ad8ea28d4495b1c - Time: 1192ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 170.01 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:40:44.852Z - Hash: c8284a458c3c53bc - Time: 962ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 170.02 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:41:07.479Z - Hash: 5f32cd91bc920a4e - Time: 924ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.98 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:42:26.110Z - Hash: 57f0f3a8f0de5b68 - Time: 999ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.98 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:42:47.722Z - Hash: 438df9e983ac1d7c - Time: 788ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 170.10 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:44:43.530Z - Hash: 8adf58f9a43eba4c - Time: 1015ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 170.00 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:49:03.688Z - Hash: 7637880bd73d0257 - Time: 942ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 169.92 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-19T13:49:32.656Z - Hash: 0392ae7c73272e87 - Time: 1064ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 171.69 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-20T05:54:25.926Z - Hash: fd1922c297e22a14 - Time: 793ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 171.70 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-20T05:54:28.727Z - Hash: d7cc07e493255181 - Time: 816ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 171.70 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-20T05:58:53.915Z - Hash: 0407cb6695013031 - Time: 823ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 171.71 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-20T05:59:37.610Z - Hash: 093865b74334c5e6 - Time: 809ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 171.70 kB |
+runtime.js          | runtime |   8.35 kB |
+
+4 unchanged chunks
+
+Build at: 2022-09-20T06:00:02.490Z - Hash: 0407cb6695013031 - Time: 878ms
+
+✔ Compiled successfully.

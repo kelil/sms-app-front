@@ -1,0 +1,17 @@
+.excelfile{
+    margin-left: 300px;
+    margin-top: 15px;
+    border: 2px;
+
+}
+.uploadfile{
+    margin-left: 400px;
+    margin-top: 25px;
+    border: 2px;
+
+}
+
+.container {
+    width: 75%;
+    background-color: aliceblue;
+}

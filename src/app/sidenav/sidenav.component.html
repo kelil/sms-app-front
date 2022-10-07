@@ -1,0 +1,35 @@
+<mat-nav-list class="side-nav">
+   <div class="logo py-4">
+      <img src="../../assets/logo.png" alt="company logo">
+   </div>
+   <mat-divider></mat-divider>
+   <h2 matSubheader class=" mat-h mt-2">Sms Gateway</h2>
+   <!-- <a mat-list-item routerLink="/home" routerLinkActive="list-item-active">
+      <mat-icon>home</mat-icon>Home
+   </a> -->
+   <br>
+   <ng-container  *ngFor="let menu of menuList | async; index as i;">
+      <ng-container [ngTemplateOutlet]="menu.children ?  childMenu : parentMenu"
+          [ngTemplateOutletContext]="{menu:menu}"  *ngIf=hasRole(menu.Role)>
+      </ng-container>
+  </ng-container>
+</mat-nav-list>
+<ng-template #parentMenu let-menu="menu" >
+   <a  mat-list-item [routerLink]="menu.routerLink" routerLinkActive="list-item-active">
+       <mat-icon>{{menu.icon}}</mat-icon> {{menu.text}}
+   </a>
+</ng-template> 
+
+<ng-template #childMenu let-menu="menu">
+   <mat-expansion-panel [class.mat-elevation-z0]="true" >
+       <mat-expansion-panel-header>
+           <mat-icon mat-list-icon>{{menu.icon}}</mat-icon>{{menu.text}}
+       </mat-expansion-panel-header>
+       <mat-nav-list>
+           <a mat-list-item  [routerLink]="submenu.routerLink" *ngFor="let submenu of menu.children" routerLinkActive="list-item-active" [routerLinkActiveOptions]="{exact:
+               true}">
+               <mat-icon>{{submenu.icon}}</mat-icon> {{submenu.text}}
+           </a>
+       </mat-nav-list>
+   </mat-expansion-panel>
+</ng-template> 

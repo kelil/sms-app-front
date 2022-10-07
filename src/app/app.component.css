@@ -1,0 +1,17 @@
+:host{
+  position: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+mat-sidenav{
+  width: 250px;
+  
+}
+mat-sidenav-container{
+  height: 100%;
+}
+mat-sidenav-content{
+  color: black;
+  background-color: azure;
+}

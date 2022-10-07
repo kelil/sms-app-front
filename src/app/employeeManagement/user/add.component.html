@@ -1,0 +1,111 @@
+<div class="container p-3">
+    <div class="col-md-12">
+        <mat-card>
+        <mat-card-header>
+            <mat-card-title> User Add Form</mat-card-title>
+        </mat-card-header>
+        <form class="example-form" [formGroup]="userData"
+            (ngSubmit)="addUser()">
+            <mat-card-content>
+                <mat-form-field class="mat-field">
+                    <input matInput placeholder="User Name" formControlName="userName">
+                </mat-form-field>
+              
+                <mat-form-field class="mat-field">
+                    <input matInput placeholder="Password" formControlName="password">
+                </mat-form-field>
+            
+                <mat-form-field class="mat-field">
+                    <input matInput placeholder="Confirm Password" formControlName="confirmPassword">
+                </mat-form-field>
+
+                <mat-form-field class="mat-field">
+                    <input matInput placeholder="Email" formControlName="email">
+                </mat-form-field>
+            
+                <mat-form-field class="mat-field">
+                    <mat-select matNativeControl required formControlName="employee" placeholder="Select Employee">
+                        <mat-option value=""></mat-option>
+                        <mat-option *ngFor="let employee of employees"  [value]="employee">{{employee.givenName}} {{employee.fatherName}}</mat-option>
+                        
+                    </mat-select>
+                </mat-form-field>
+              
+                <mat-form-field class="mat-field">
+                    <mat-select matNativeControl placeholder="Select Role" required formControlName="role">
+                        <mat-option value=""></mat-option>
+                        <mat-option *ngFor="let role of roles" value="{{role}}">{{role}}</mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </mat-card-content>
+            <div class="save-button">
+                <button mat-stroked-button class="btn btn-success" type="submit">Save</button>
+            </div>
+            
+        </form>
+    </mat-card>
+    </div>
+    
+</div>
+
+
+<!-- <mat-card class="container col-md-8">
+
+    <mat-card-content>
+        <form *ngIf="!isSuccessful" name="form" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm" novalidate>
+            <div class="form-group p-3">
+                <input type="text" class="form-control" placeholder="User Name" name="username"
+                    [(ngModel)]="form.userName" required minlength="3" maxlength="20" #userName="ngModel"
+                    [ngClass]="{ 'is-invalid': f.submitted && userName.errors }" />
+                <div class="invalid-feedback" *ngIf="userName.errors && f.submitted">
+                    <div *ngIf="userName.errors['required']">Username is required</div>
+                    <div *ngIf="userName.errors['minlength']">
+                        Username must be at least 3 characters
+                    </div>
+                    <div *ngIf="userName.errors['maxlength']">
+                        Username must be at most 20 characters
+                    </div>
+                </div>
+            </div>
+            <div class="form-group p-3">
+                <input type="password" class="form-control" placeholder="Password" name="password"
+                    [(ngModel)]="form.password" required minlength="6" #password="ngModel"
+                    [ngClass]="{ 'is-invalid': f.submitted && password.errors }" />
+                <div class="invalid-feedback" *ngIf="password.errors && f.submitted">
+                    <div *ngIf="password.errors['required']">Password is required</div>
+                    <div *ngIf="password.errors['minlength']">
+                        Password must be at least 6 characters
+                    </div>
+                </div>
+            </div>
+            <div class="form-group p-3">
+                <input type="password" placeholder="Confirm Password" class="form-control" placeholder="Enter password"
+                    name="password">
+            </div>
+            <div class="form-group p-3">
+                <select class="form-control col-md-8" name="employee" [(ngModel)]="form.employee">
+                    <option [ngValue]="" selected disabled>Select the Employee</option>
+                    <option *ngFor="let employee of employees" value="{{employee.id}}">{{employee.firstName}}
+                        {{employee.lastName}}</option>
+                </select>
+            </div>
+            <div class="form-group p-3">
+                <select class="form-control" name="role" [(ngModel)]="form.role">
+                    <option *ngFor="let role of roles" value="{{role}}">{{role}}</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary btn-block">Sign Up</button>
+            </div>
+            <div class="alert alert-warning" *ngIf="f.submitted && isSignUpFailed">
+                Signup failed!<br />{{ errorMessage }}
+            </div>
+        </form>
+    </mat-card-content>
+    <mat-divider inset></mat-divider>
+    <mat-card-actions>
+        <div class="alert alert-success" *ngIf="isSuccessful">
+            Your registration is successful!
+        </div>
+    </mat-card-actions>
+</mat-card> -->

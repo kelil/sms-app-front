@@ -1,0 +1,69 @@
+<div class="container">
+    <div class="row">
+         <div class="col-md-4">
+                <mat-form-field appearance="standard">
+                    <mat-label>Filter Table</mat-label>
+                    <input matInput placeholder="search phone ,messageContent and name" (keyup)="applyFilter($event)" #inputAll />
+                </mat-form-field>
+           </div>
+         <div class="col-md-4">
+            <mat-form-field appearance="standard">
+               <mat-label>Filter By Batch</mat-label>
+               <input matInput placeholder="search by Batch" (keyup)="applyBatchFilter($event)" #input/>
+           </mat-form-field>
+        </div>
+        <div class="col-md-4">
+          <form [formGroup]="formData">
+            <mat-form-field appearance="standard">
+                <mat-label>Filter By Status</mat-label>
+                <mat-select matInput placeholder="search by status" formControlName="statusField" (selectionChange)="applyChange($event)">
+                    <mat-option value="success">success</mat-option>
+                    <mat-option value="failed">failed</mat-option>
+                    <mat-option value="pending">pending</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </form>
+        </div>
+        <div class="col-md-4 pt-4">
+            <!-- <a mat-button class="btn btn-primary" routerLink="add">Add New</a> -->
+        </div>
+    </div>
+    <div>
+        <table mat-table matSort [dataSource]="dataSource" class="mat-elevation-z8">
+            <ng-container matColumnDef="phoneNumber">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header> Phone Number</th>
+                <td mat-cell *matCellDef="let row"><span *ngIf="row.phoneNumber">{{row.phoneNumber}}</span></td>
+            </ng-container>
+            <ng-container matColumnDef="messageContent">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header> Message Content</th>
+                <td mat-cell *matCellDef="let row"><span *ngIf="row.messageContent">{{row.messageContent}}</span></td>
+            </ng-container>
+
+            <ng-container matColumnDef="messageBatch">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header> Batch </th>
+                <td mat-cell *matCellDef="let row"><span *ngIf="row.messageBatch">{{row.messageBatch}}</span></td>
+            </ng-container>
+            <ng-container matColumnDef="messageBatchDate">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header> Batch Time </th>
+                <td mat-cell *matCellDef="let row"><span *ngIf="row.messageBatchDate">{{row.messageBatchDate | date}}</span></td>
+            </ng-container>
+            <ng-container matColumnDef="sender">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header> Sender</th>
+                <td mat-cell *matCellDef="let row"><span *ngIf="row.sender"> {{row.sender}}</span></td>
+            </ng-container>
+            <ng-container matColumnDef="status">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header> Status</th>
+                <td mat-cell *matCellDef="let row"><span *ngIf="row.status"> {{row.status}}</span></td>
+            </ng-container>
+
+            <tr mat-header-row *matHeaderRowDef="displayedColumn"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumn"></tr>
+            <tr *matNoDataRow>
+                <td class="mat-cell" colspan="4">The filter does not match any item in the data for this text {{input.value}} </td>
+
+            </tr>
+        </table>
+
+        <mat-paginator [pageSizeOptions]="[5,10,25,100]" aria-label="select page of employees"></mat-paginator>
+    </div>
+</div>

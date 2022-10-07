@@ -1,0 +1,61 @@
+[
+    {
+        "text": "Dashboard",
+        "icon": "dashboard",
+        "Role":["ROLE_USER"],
+        "routerLink": "home"
+    },
+    {
+        "text": "User Management",
+        "icon": "account_circle",
+        "Role":["ROLE_ADMIN"],
+        "children": [
+            {
+                "text": "Users",
+                "icon": "keyboard_arrow_right",
+                "routerLink": "users",
+                "Role":["ROLE_ADMIN"]
+            }
+        ]
+    },
+    {
+        "text": "Employee Management",
+        "icon": "supervised_user_circle",
+        "Role":["ROLE_ADMIN"],
+        "children": [
+            {
+                "text": "Employees",
+                "icon": "keyboard_arrow_right",
+                "routerLink": "employees",
+                "Role":["ROLE_ADMIN"]
+            },
+            {
+                "text": "Divisions",
+                "icon": "keyboard_arrow_right",
+                "routerLink": "divisions",
+                "Role":["ROLE_ADMIN"]
+            }
+        ]
+    },
+    {
+        "text": "SMS Messages",
+        "icon": "sms",
+        "Role":["ROLE_USER"],
+        "children": [
+          
+            {
+                "text": "Bulk Sms",
+                "icon": "keyboard_arrow_right",
+                "routerLink": "messages/smsfromfile",
+                "Role":["ROLE_USER"]
+            },
+            {
+                "text": "View Sms",
+                "icon": "keyboard_arrow_right",
+                "routerLink": "messages/viewmessages",
+                "Role":["ROLE_USER"]
+
+            }
+        ]
+    }
+]

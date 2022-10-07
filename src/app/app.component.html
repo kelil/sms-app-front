@@ -1,0 +1,10 @@
+<app-login *ngIf="!isLoggedIn"></app-login>
+<mat-sidenav-container *ngIf="isLoggedIn">
+  <mat-sidenav mode="side" [opened]="sideBarOpen">
+    <app-sidenav></app-sidenav>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <app-header (toggleSidebarForm)="sideBarToggler()"></app-header>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

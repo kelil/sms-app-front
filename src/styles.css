@@ -1,0 +1,10 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Montsarret, "Helvetica Neue", sans-serif;
+  min-height: 100vh;
+  background: #e2e2e2;
+}
