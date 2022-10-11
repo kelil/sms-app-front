@@ -38,6 +38,7 @@ divisions: any
       return this.divisionService.deleteDivision(arg0).subscribe({
         next: resp => {
           alert(resp.message)
+          this.ngOnInit()
         },
         error: (err: any) => {
   
@@ -50,8 +51,13 @@ divisions: any
    
     }
 
-  applyFilter($event: KeyboardEvent) {
-    throw new Error('Method not implemented.');
+  applyFilter(event: Event) {
+    const filterValue = (event.target as HTMLInputElement).value
+    this.dataSource.filter = filterValue.trim().toLowerCase()
+
+    if(this.dataSource.paginator){
+      this.dataSource.paginator.firstPage()
+    }
     }
 
 }

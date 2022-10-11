@@ -11,9 +11,9 @@
     </div>
     <div>
         <table mat-table matSort [dataSource]="dataSource" class="mat-elevation-z8">
-            <ng-container matColumnDef="firstName">
+            <ng-container matColumnDef="fullName">
                 <th mat-header-cell *matHeaderCellDef mat-sort-header> Full Name</th>
-                <td mat-cell *matCellDef="let row">{{row.givenName}} {{row.fatherName}}</td>
+                <td mat-cell *matCellDef="let row">{{row.fullName}}</td>
             </ng-container>
             <ng-container matColumnDef="email">
                 <th mat-header-cell *matHeaderCellDef mat-sort-header> Email</th>
@@ -29,7 +29,7 @@
             </ng-container>
             <ng-container matColumnDef="division">
                 <th mat-header-cell *matHeaderCellDef mat-sort-header> Division</th>
-                <td mat-cell *matCellDef="let row">{{row.division.name}}</td>
+                <td mat-cell *matCellDef="let row">{{row.division}}</td>
             </ng-container>
 
             <ng-container matColumnDef="actions">

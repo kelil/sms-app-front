@@ -19,18 +19,21 @@ export interface EmployeeData{
 })
 export class EmployeeComponent implements OnInit {
 
-  displayedColumn: string[] = ['firstName','email','position','phone','division','actions'];
+  displayedColumn: string[] = ['fullName','email','position','phone','division','actions'];
   dataSource!: MatTableDataSource<EmployeeData>
   @ViewChild(MatPaginator) paginator!: MatPaginator
   @ViewChild(MatSort) sort!: MatSort
   posts:any
+  post: any =[];
   constructor(private employeeService: EmployeeService) { }
 
   ngOnInit(): void {
     this.employeeService.getAll().subscribe(response => {
-      console.log("hello this is :"+JSON.stringify(response));
       this.posts = response
-      this.dataSource = new MatTableDataSource(this.posts)
+      this.posts.forEach((element: { givenName: string; fatherName: string; grandFatherName: string; email: any; phoneNumber: any; division: { name: any; }; position: any; }) => {
+        this.post.push({fullName: element.givenName+" "+element.fatherName+" "+element.grandFatherName,email: element.email, phoneNumber:element.phoneNumber,division:element.division.name,position: element.position})
+      });
+      this.dataSource = new MatTableDataSource(this.post)
       this.dataSource.paginator = this.paginator
       this.dataSource.sort = this.sort
     });
