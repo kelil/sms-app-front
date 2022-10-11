@@ -2,9 +2,11 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
-import { ApexChart, ApexNonAxisChartSeries, ApexTitleSubtitle } from 'ng-apexcharts';
+import { Router } from '@angular/router';
 import { MessageData } from '../messageManagement/view-messages/view-messages.component';
+import { AuthService } from '../service/auth.service';
 import { MessageService } from '../service/message.service';
+import { StorageService } from '../service/storage.service';
 
 @Component({
   selector: 'app-home',
@@ -24,7 +26,7 @@ export class HomeComponent implements OnInit {
   pending: number = 0
   failed: number = 0
   response: any = []
-  constructor(private smsService: MessageService) {
+  constructor(private smsService: MessageService, private router:Router, private storageService:StorageService) {
     this.smsService.getAll().subscribe({
       next: data => {
 
@@ -83,6 +85,10 @@ export class HomeComponent implements OnInit {
    
 
   ngOnInit(): void {
+    if(this.storageService.getUser().roles[0]=="ROLE_ADMIN"){
+      this.router.navigateByUrl('/users');
+    }
+    
    
   }
 

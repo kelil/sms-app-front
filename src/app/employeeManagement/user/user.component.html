@@ -29,7 +29,7 @@
                         </ng-container> -->
             <ng-container matColumnDef="employee">
                 <th mat-header-cell *matHeaderCellDef mat-sort-header> Employee</th>
-                <td mat-cell *matCellDef="let row">{{ row.employee.givenName}} {{ row.employee.fatherName}}</td>
+                <td mat-cell *matCellDef="let row"><span *ngIf="row.employee">{{ row.employee.givenName}} {{ row.employee.fatherName}} {{ row.employee.grandFatherName}}</span></td>
             </ng-container>
             <ng-container matColumnDef="actions">
                 <mat-header-cell *matHeaderCellDef> Actions </mat-header-cell>

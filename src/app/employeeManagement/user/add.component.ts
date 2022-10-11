@@ -23,7 +23,7 @@ export class AddUserComponent implements OnInit {
         role: new FormControl()
     })
 
-    constructor(private authService: AuthService, private emps: EmployeeService, private userService: UserService, private router:Router) { }
+    constructor(private authService: AuthService, private emps: EmployeeService, private userService: UserService, private router: Router) { }
     ngOnInit(): void {
         this.getEmployee()
     }
@@ -34,10 +34,9 @@ export class AddUserComponent implements OnInit {
         })
     }
 
-    addUser(){
+    addUser() {
         return this.userService.addUser(this.userData.value).subscribe({
             next: data => {
-                
                 alert(data.message)
                 this.router.navigate(["users"])
             },
@@ -47,5 +46,5 @@ export class AddUserComponent implements OnInit {
         });
     }
 
-    
+
 }

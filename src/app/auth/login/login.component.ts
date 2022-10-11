@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
+import { Router } from '@angular/router';
 import { AuthService } from 'src/app/service/auth.service';
 import { StorageService } from 'src/app/service/storage.service';
 @Component({
@@ -16,7 +17,7 @@ export class LoginComponent implements OnInit {
   isLoginFailed = false;
   errorMessage = 'please fill required fields';
   roles: string[] = [];
-  constructor(private authService: AuthService, private storageService: StorageService) { }
+  constructor(private authService: AuthService, private storageService: StorageService, private router:Router) { }
   ngOnInit(): void {
     if (this.storageService.isLoggedIn()) {
       this.isLoggedIn = true;
@@ -32,20 +33,24 @@ export class LoginComponent implements OnInit {
       next: data => {
         
         console.log(data)
-       // const now  =  Date.now()
-       // this.autologout(now+80000000)
         this.storageService.saveUser(data);
+        
         this.isLoginFailed = false;
         this.isLoggedIn = true;
         this.roles = this.storageService.getUser().roles;
         this.reloadPage();
+        if(this.roles[0]=="ROLE_ADMIN"){
+          this.router.navigate(["users"])
+        }else{
+          this.router.navigate(["home"])
+        }
         
       },
       error: err => {
         console.log(err.error.message)
         this.errorMessage = err.error.message;
         this.isLoginFailed = true;
-       this.form.reset()
+        this.form.reset()
       }
     });
   }

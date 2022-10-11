@@ -11,7 +11,7 @@ import { StorageService } from '../service/storage.service';
 export class HeaderComponent implements OnInit {
 
   @Output() toggleSidebarForm : EventEmitter<any>= new EventEmitter();
-  constructor( private authService: AuthService, private storageService: StorageService, public router: Router) { }
+  constructor( private authService: AuthService, private storageService: StorageService, private router: Router) { }
 
   currentUser: any
   ngOnInit(): void {
