@@ -14,15 +14,17 @@ import { UserComponent } from './employeeManagement/user/user.component';
 import { HomeComponent } from './home/home.component';
 import { SmsFromFileComponent } from './messageManagement/sms-from-file/sms-from-file.component';
 import { ViewMessagesComponent } from './messageManagement/view-messages/view-messages.component';
+import { RoleGuard } from './role-guard.guard';
+import { SmsGuard } from './sms.guard';
 
 
 const routes: Routes = [{ path: "home", component: HomeComponent },
 { path: "dashboard", component: DashboardComponent },
 {path: "login", component: LoginComponent },
 {path: "users/register", component: RegisterComponent },
-{path: "messages/smsfromfile", component: SmsFromFileComponent},
-{path: "messages/viewmessages", component: ViewMessagesComponent},
-{path: "users", children: [
+{path: "messages/smsfromfile", canActivate:[SmsGuard], component: SmsFromFileComponent},
+{path: "messages/viewmessages", canActivate:[SmsGuard], component: ViewMessagesComponent},
+{path: "users", canActivate:[RoleGuard],  children: [
   {
     path: "profile", component: UserProfileComponent
   },
@@ -38,7 +40,7 @@ const routes: Routes = [{ path: "home", component: HomeComponent },
 ]},
 
 {
-  path: "employees", children: [
+  path: "employees", canActivate:[RoleGuard], children: [
     {
       path: "", component: EmployeeComponent
     },
@@ -47,7 +49,7 @@ const routes: Routes = [{ path: "home", component: HomeComponent },
   ]
 },
 {
-  path: "divisions", children: [
+  path: "divisions", canActivate:[RoleGuard],  children: [
     {
       path: "", component: DivisionComponent
     },
